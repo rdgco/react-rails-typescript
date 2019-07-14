@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a starter project that integrates Ruby on Rails as the server using webpacker and the react-rails gem.
+Additionally, this is configured to use Typescript code in .ts and .tsx files.
 
-Things you may want to cover:
+* Ruby version: 2.6
+* Rails Version: 5.2
+* CSS Framework: react-bootstrap
 
-* Ruby version
+Installation:
 
-* System dependencies
+Make sure you are using Ruby version 2.6.
 
-* Configuration
+1. bundle install
+2. yarn install
+3. rails db:create
 
-* Database creation
+To Test:
 
-* Database initialization
+bundle exec rspec
 
-* How to run the test suite
+To run the rails server and webpack-dev-server:
 
-* Services (job queues, cache servers, search engines, etc.)
+foreman -p 30000 -f Procfile.dev
 
-* Deployment instructions
-
-* ...
